@@ -1,5 +1,5 @@
 const api_key = import.meta.env.VITE_API_KEY
-const URL = "http://www.omdbapi.com"
+const URL = "https://www.omdbapi.com"
 
 function buildParams(obj) {
   const params = new URLSearchParams();
