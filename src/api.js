@@ -18,10 +18,6 @@ export async function SearchMoviesApi(query, page = 1, year){
     if(!res.ok) throw new Error(`HTTP error ${res.status}`);
 
     const data = await res.json()
-    // const p = data.Search
-    // p.map((e)=>{
-    //     console.log(e.Title)
-    // })
 
     if(data.Response === "False") throw new Error(data.Error);
 
