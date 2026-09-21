@@ -106,3 +106,6 @@ VITE_API_KEY=isi_api_key_omdb_kamu
 ## Lisensi
 
 Project ini dibuat untuk keperluan belajar.
+
+ini link demoo nya
+https://simplewebfilm.netlify.app
