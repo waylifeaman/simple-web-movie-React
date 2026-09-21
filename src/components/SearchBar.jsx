@@ -16,7 +16,7 @@ export const SearchBar = ({value, onChange, onSearch}) => {
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
                 placeholder="Cari Judul Film" 
-                style={{ border: "1px solid gray", width: "500px" }}
+                style={{ border: "1px solid gray", width: "500px" ,color:"black" }}
                 />
                 <div style={{ display:"flex", alignItems:"center" }}>            
                 <button id="button-control" style={{ backgroundColor: "black", border:"1px solid gray", padding: "5px", borderRadius: "10px", cursor:"pointer" }}>Cari</button>
